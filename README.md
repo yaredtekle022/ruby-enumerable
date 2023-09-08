@@ -83,14 +83,6 @@ puts list.any? { |e| e == 5 }  # Should output: false
 # Test #filter
 puts list.filter(&:even?).inspect  # Should output: [2, 4]
 ```
-### Prerequisites
-
-In order to run this project you need:
-
-```
-    postgres
-```
-
 ### Setup
 
 Clone this repository to your desired folder:
